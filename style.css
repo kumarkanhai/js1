@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(158, 119, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(219, 157, 77);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+#chat img{
+    height: 55%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+#chat h1{
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom:25px;
+}
+#chat h3{
+    font-weight: 900;
+    color: rgb(233, 20, 20);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#chat button{
+    background-color: rgb(44, 29, 9);
+    color: #fff;
+    padding : 12px 20px;
+    border-radius: 20px;
+    cursor: grabbing;
+}
